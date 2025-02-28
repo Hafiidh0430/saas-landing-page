@@ -19,7 +19,8 @@
   </head>
   <body>
     <nav
-      class="navbar position-fixed w-100 navbar-expand-lg py-4 navbar-white bg-white"
+      style="z-index: 9999"
+      class="navbar position-fixed w-100 border border-bottom-2 navbar-expand-lg py-4 navbar-white bg-white"
     >
       <div class="container">
         <a class="navbar-brand fw-bold" href="#">SaaS</a>
@@ -35,24 +36,18 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
-          >
+          <ul class="navbar-nav me-auto my-2 my-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#fitur-unggulan">Fitur Unggulan</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Fitur Unggulan</a>
+              <a class="nav-link" href="#testimonial">Testimonial</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonial</a>
+              <a class="nav-link" href="#harga-paket">Harga</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Harga</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">FAQ's</a>
+              <a class="nav-link" href="#faq">FAQ's</a>
             </li>
           </ul>
           <button
@@ -76,9 +71,7 @@
         <section
           class="hero__section d-flex align-items-center justify-content-center flex-column"
         >
-          <span
-            style="background-color: blueviolet"
-            class="badge__info px-4 py-2 rounded-5 text-white"
+          <span class="badge__info px-4 py-2 bg-primary rounded-5 text-white"
             >Solusi Digital untuk Pondok Pesantren</span
           >
           <div class="detail__hero text-center">
@@ -101,7 +94,7 @@
           </div>
         </section>
 
-        <section
+        <section id="fitur-unggulan"
           class="features__section gap__y d-flex align-items-center justify-content-center flex-column"
         >
           <span
@@ -181,7 +174,7 @@
           </div>
         </section>
 
-        <section class="testimonial__section gap__y">
+        <section id="testimonial" class="testimonial__section gap__y">
           <div
             class="d-flex align-items-center justify-content-center flex-column"
           >
@@ -281,25 +274,770 @@
           </div>
         </section>
 
-        <section
-          class="pricing__section gap__y d-flex align-items-center justify-content-center flex-column"
-        >
-          <span
-            class="badge__info px-4 py-2 rounded-5 text-dark border border-dark"
-            >Pilih Paket Sesuai Kebutuhanmu</span
+        <section id="harga-paket" class="pricing__section gap__y">
+          <div
+            class="d-flex align-items-center justify-content-center flex-column"
           >
-          <div class="detail__pricing text-center">
-            <h1 class="title__pricing">
+            <span
+              class="badge__info px-4 py-2 rounded-5 text-dark border border-dark"
+              >Pilih Paket Sesuai Kebutuhanmu</span
+            >
+            <div class="detail__pricing text-center">
+              <h1 class="title__pricing">
                 Akses lengkap untuk segala kebutuhan
-            </h1>
+              </h1>
+            </div>
           </div>
 
-         <div class="pricing__list mt-md-4 mt-3">
-            
-         </div>
+          <div class="pricing__list row justify-content-center mt-md-4 mt-3">
+            <div class="p-md-3 p-2 col-lg-4 col-md-6 col-12">
+              <div class="pricing__basic px-3 py-4 rounded-4 bg-white">
+                <div
+                  class="pricing__basic__price d-flex flex-column align-items-center"
+                >
+                  <span
+                    class="pricing__name fs-2 text-center text-nowrap fw-medium"
+                    >Basic</span
+                  >
+                  <span
+                    class="pricing__price fs-1 text-center text-nowrap fw-bold"
+                    >Rp. 569.099</span
+                  >
+                </div>
+                <div
+                  class="pricing__basic__feature px-4 d-flex flex-column align-items-start gap-3 mt-md-3 mt-2"
+                >
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Manajemen Data Santri </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Manajemen Santri Pribadi </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Authentikasi Berdasarkan Role </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#db3434"
+                      />
+                      <path
+                        d="M25.4464 14.5486C25.7155 14.2411 25.7155 13.7425 25.4464 13.4349C25.1773 13.1274 24.741 13.1274 24.4719 13.4349L18.7242 19.9375L13.1203 13.4349C12.8512 13.1274 12.4149 13.1274 12.1458 13.4349C11.8767 13.7425 11.8767 14.2411 12.1458 14.5486L17.7497 21.0512L12.1458 27.5538C11.8767 27.8614 11.8767 28.36 12.1458 28.6675C12.2803 28.8213 12.4604 28.8982 12.6331 28.8982C12.8057 28.8982 12.9858 28.8213 13.1203 28.6675L18.7242 22.1649L24.4719 28.6675C24.6064 28.8213 24.7865 28.8982 24.9592 28.8982C25.1318 28.8982 25.3119 28.8213 25.4464 28.6675C25.7155 28.36 25.7155 27.8614 25.4464 27.5538L19.6987 21.0512L25.4464 14.5486Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Sistem Pembayaran SPP </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#db3434"
+                      />
+                      <path
+                        d="M25.4464 14.5486C25.7155 14.2411 25.7155 13.7425 25.4464 13.4349C25.1773 13.1274 24.741 13.1274 24.4719 13.4349L18.7242 19.9375L13.1203 13.4349C12.8512 13.1274 12.4149 13.1274 12.1458 13.4349C11.8767 13.7425 11.8767 14.2411 12.1458 14.5486L17.7497 21.0512L12.1458 27.5538C11.8767 27.8614 11.8767 28.36 12.1458 28.6675C12.2803 28.8213 12.4604 28.8982 12.6331 28.8982C12.8057 28.8982 12.9858 28.8213 13.1203 28.6675L18.7242 22.1649L24.4719 28.6675C24.6064 28.8213 24.7865 28.8982 24.9592 28.8982C25.1318 28.8982 25.3119 28.8213 25.4464 28.6675C25.7155 28.36 25.7155 27.8614 25.4464 27.5538L19.6987 21.0512L25.4464 14.5486Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Manajemen Data Guru </span>
+                  </div>
+                </div>
+                <button class="btn__pricing btn btn-md w-100 mt-4 rounded-5">
+                  Akses Sekarang
+                </button>
+              </div>
+            </div>
+            <div class="p-md-3 p-2 col-lg-4 col-md-6 col-12">
+              <div class="pricing__basic px-3 py-4 rounded-4 bg-white">
+                <div
+                  class="pricing__basic__price d-flex flex-column align-items-center"
+                >
+                  <span
+                    class="pricing__name fs-2 text-center text-nowrap fw-medium"
+                    >Business</span
+                  >
+                  <span
+                    class="pricing__price fs-1 text-center text-nowrap fw-bold"
+                    >Rp. 749.099</span
+                  >
+                </div>
+                <div
+                  class="pricing__basic__feature px-4 d-flex flex-column align-items-start gap-3 mt-md-3 mt-2"
+                >
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Manajemen Data Santri </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Manajemen Santri Pribadi </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Authentikasi Berdasarkan Role </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                    class="flex-shrink-0"
+                    style="height: 2rem; width: 2rem"
+                    viewBox="0 0 38 39"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      y="0.548584"
+                      width="37.4484"
+                      height="37.8"
+                      rx="18.7242"
+                      fill="#345bdb"
+                    />
+                    <path
+                      d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                      fill="#fff"
+                    />
+                  </svg>
+                    <span class="text"> Sistem Pembayaran SPP </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#db3434"
+                      />
+                      <path
+                        d="M25.4464 14.5486C25.7155 14.2411 25.7155 13.7425 25.4464 13.4349C25.1773 13.1274 24.741 13.1274 24.4719 13.4349L18.7242 19.9375L13.1203 13.4349C12.8512 13.1274 12.4149 13.1274 12.1458 13.4349C11.8767 13.7425 11.8767 14.2411 12.1458 14.5486L17.7497 21.0512L12.1458 27.5538C11.8767 27.8614 11.8767 28.36 12.1458 28.6675C12.2803 28.8213 12.4604 28.8982 12.6331 28.8982C12.8057 28.8982 12.9858 28.8213 13.1203 28.6675L18.7242 22.1649L24.4719 28.6675C24.6064 28.8213 24.7865 28.8982 24.9592 28.8982C25.1318 28.8982 25.3119 28.8213 25.4464 28.6675C25.7155 28.36 25.7155 27.8614 25.4464 27.5538L19.6987 21.0512L25.4464 14.5486Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Manajemen Data Guru </span>
+                  </div>
+                </div>
+                <button class="btn__pricing btn btn-md w-100 mt-4 rounded-5">
+                  Akses Sekarang
+                </button>
+              </div>
+            </div>
+            <div class="p-md-3 p-2 col-lg-4 col-md-6 col-12">
+              <div class="pricing__basic px-3 py-4 rounded-4 bg-white">
+                <div
+                  class="pricing__basic__price d-flex flex-column align-items-center"
+                >
+                  <span
+                    class="pricing__name fs-2 text-center text-nowrap fw-medium"
+                    >Enterprise</span
+                  >
+                  <span
+                    class="pricing__price fs-1 text-center text-nowrap fw-bold"
+                    >Rp. 1.499.599</span
+                  >
+                </div>
+                <div
+                  class="pricing__basic__feature px-4 d-flex flex-column align-items-start gap-3 mt-md-3 mt-2"
+                >
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Manajemen Data Santri </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Manajemen Santri Pribadi </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                    <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Authentikasi Berdasarkan Role </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                     <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Sistem Pembayaran SPP </span>
+                  </div>
+                  <div class="icon-text d-flex align-items-center gap-3">
+                     <svg
+                      class="flex-shrink-0"
+                      style="height: 2rem; width: 2rem"
+                      viewBox="0 0 38 39"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        y="0.548584"
+                        width="37.4484"
+                        height="37.8"
+                        rx="18.7242"
+                        fill="#345bdb"
+                      />
+                      <path
+                        d="M26.4464 13.3791C26.7155 13.6866 26.7155 14.1852 26.4464 14.4928L16.7995 25.5178C16.6703 25.6655 16.4951 25.7484 16.3123 25.7484C16.1296 25.7484 15.9543 25.6655 15.8251 25.5178L11.0016 20.0053C10.7325 19.6977 10.7325 19.1991 11.0016 18.8916C11.2707 18.5841 11.707 18.5841 11.9761 18.8916L16.3123 23.8472L25.4719 13.3791C25.741 13.0716 26.1773 13.0716 26.4464 13.3791Z"
+                        fill="#fff"
+                      />
+                    </svg>
+                    <span class="text"> Manajemen Data Guru </span>
+                  </div>
+                </div>
+                <button class="btn__pricing btn btn-md w-100 mt-4 rounded-5">
+                  Akses Sekarang
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="faq" class="faq__section gap__y">
+          <div
+            class="d-flex align-items-center justify-content-center flex-column"
+          >
+            <span class="badge__info px-4 py-2 rounded-5 text-white bg-primary"
+              >FAQ's</span
+            >
+            <div class="detail__pricing text-center">
+              <h1 class="title__pricing">Pertanyaan yang Sering Ditanya</h1>
+            </div>
+          </div>
+          <div class="accordion mt-md-4 mt-3" id="accordionModern">
+            <!-- Item 1 -->
+            <div
+              class="accordion-item"
+              style="border: none; margin-bottom: 0.4rem; border-radius: 1rem"
+            >
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                  style="
+                    background-color: #fff;
+                    color: #252525;
+                    border-radius: 1rem;
+                    border: 1px solid #f0f0f0;
+                    padding: 15px 20px;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                  "
+                >
+                  Apa aja sih yang bisa dikelola di sistem ini?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionModern"
+              >
+                <div
+                  class="accordion-body"
+                  style="
+                    background-color: #f8f8f8;
+                    border-radius: 0 0 1rem 1rem;
+                    padding: 20px;
+                    margin-top: -0.8rem;
+                    border: 1px solid #f0f0f0;
+                  "
+                >
+                  Semua hal penting di pondok! Mulai dari data santri, absensi,
+                  pembayaran, hingga laporan harian bisa diakses dalam satu
+                  platform.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div
+              class="accordion-item"
+              style="border: none; margin-bottom: 0.4rem; border-radius: 1rem"
+            >
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                  style="
+                    background-color: #fff;
+                    color: #252525;
+                    border-radius: 1rem;
+                    border: 1px solid #f0f0f0;
+                    padding: 15px 20px;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                  "
+                >
+                  Susah ga sih cara pakainya?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionModern"
+              >
+                <div
+                  class="accordion-body"
+                  style="
+                    background-color: #f8f8f8;
+                    border-radius: 0 0 1rem 1rem;
+                    padding: 20px;
+                    margin-top: -0.8rem;
+                    border: 1px solid #f0f0f0;
+                  "
+                >
+                  Nggak ribet sama sekali! UI/UX-nya dirancang biar gampang
+                  dipahami, bahkan buat yang baru pertama kali pakai sistem
+                  digital.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div
+              class="accordion-item"
+              style="border: none; margin-bottom: 0.4rem; border-radius: 1rem"
+            >
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                  style="
+                    background-color: #fff;
+                    color: #252525;
+                    border-radius: 1rem;
+                    border: 1px solid #f0f0f0;
+                    padding: 15px 20px;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                  "
+                >
+                  Support semua device gak?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionModern"
+              >
+                <div
+                  class="accordion-body"
+                  style="
+                    background-color: #f8f8f8;
+                    border-radius: 0 0 1rem 1rem;
+                    padding: 20px;
+                    margin-top: -0.8rem;
+                    border: 1px solid #f0f0f0;
+                  "
+                >
+                  Bisa dong! Sistem ini responsif, jadi bisa diakses lewat HP,
+                  tablet, atau laptop tanpa masalah.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div
+              class="accordion-item"
+              style="border: none; margin-bottom: 0.4rem; border-radius: 1rem"
+            >
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                  style="
+                    background-color: #fff;
+                    color: #252525;
+                    border-radius: 1rem;
+                    border: 1px solid #f0f0f0;
+                    padding: 15px 20px;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                  "
+                >
+                  Bisa custom fitur sesuai kebutuhan pondok?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionModern"
+              >
+                <div
+                  class="accordion-body"
+                  style="
+                    background-color: #f8f8f8;
+                    border-radius: 0 0 1rem 1rem;
+                    padding: 20px;
+                    margin-top: -0.8rem;
+                    border: 1px solid #f0f0f0;
+                  "
+                >
+                  Bisa banget! Kami siap bantu menyesuaikan fitur supaya pas
+                  dengan sistem pengelolaan di pondokmu.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div
+              class="accordion-item"
+              style="border: none; margin-bottom: 0.4rem; border-radius: 1rem"
+            >
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                  style="
+                    background-color: #fff;
+                    color: #252525;
+                    border-radius: 1rem;
+                    border: 1px solid #f0f0f0;
+                    padding: 15px 20px;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                  "
+                >
+                  Ada training atau panduan buat yang pertama kali pakai?
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionModern"
+              >
+                <div
+                  class="accordion-body"
+                  style="
+                    background-color: #f8f8f8;
+                    border-radius: 0 0 1rem 1rem;
+                    padding: 20px;
+                    margin-top: -0.8rem;
+                    border: 1px solid #f0f0f0;
+                  "
+                >
+                  Tentu! Kami kasih panduan lengkap plus support biar tim pondok
+                  bisa langsung lancar menggunakannya.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div
+              class="accordion-item"
+              style="border: none; margin-bottom: 0.4rem; border-radius: 1rem"
+            >
+              <h2 class="accordion-header" id="headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                  style="
+                    background-color: #fff;
+                    color: #252525;
+                    border-radius: 1rem;
+                    border: 1px solid #f0f0f0;
+                    padding: 15px 20px;
+                    font-weight: 500;
+                    transition: all 0.3s ease;
+                  "
+                >
+                  Bisa dipakai banyak admin sekaligus?
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingSix"
+                data-bs-parent="#accordionModern"
+              >
+                <div
+                  class="accordion-body"
+                  style="
+                    background-color: #f8f8f8;
+                    border-radius: 0 0 1rem 1rem;
+                    padding: 20px;
+                    margin-top: -0.8rem;
+                    border: 1px solid #f0f0f0;
+                  "
+                >
+                  Bisa! Setiap admin bisa punya akses sendiri dengan hak yang
+                  berbeda sesuai kebutuhan pondok.
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </div>
+    <footer>
+      <div class="container__footer">
+        <div class="wrapper__footer">
+          <div class="left__side">
+            <div class="footer__detail__pondok">
+              <div class="address__footer">
+                <h3>SaaS</h3>
+                <p style="max-width: 24rem;">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button
+                class="btn btn-md bg-primary px-4 py-2 rounded-5 w-100 text-white"
+              >
+               Hubungi Kami
+              </button>
+              </div>
+            </div>
+          </div>
+          <div class="right__side">
+            <div class="footer__kontak">
+              <h3>Sosial Media</h3>
+              <ul class="list__kontak">
+                <li>WhatsApp - 0895-1231-312</li>
+                <li>Instagram - @kompakteamagency</li>
+                <li>Youtube - Kompak Team Agency</li>
+              </ul>
+            </div>
+            <div class="footer__kontak">
+              <h3>Kontak Kami</h3>
+              <ul class="list__kontak">
+                <li>0895-1231-312</li>
+                <li>infodetail@saas.id</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <span class="hr__line"></span>
+        &copy; 2025 Kompak Team Agency | All Rights Reserved
+      </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
